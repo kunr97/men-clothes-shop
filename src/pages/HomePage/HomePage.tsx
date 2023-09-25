@@ -50,21 +50,21 @@ const HomePage = () => {
           <Col>
             <img
               className={offerStyle.offer_img}
-              src="public\images\offer1.webp"
+              src="\images\offer1.webp"
               alt=""
             />
           </Col>
           <Col>
             <img
               className={offerStyle.offer_img}
-              src="public\images\offer2.webp"
+              src="\images\offer2.webp"
               alt=""
             />
           </Col>
           <Col>
             <img
               className={offerStyle.offer_img}
-              src="public\images\offer3.webp"
+              src="\images\offer3.webp"
               alt=""
             />
           </Col>
@@ -107,7 +107,7 @@ const HomePage = () => {
           </Col>
         </Row>
       </div>
-      <SuggestionForU />
+      {/* <SuggestionForU /> */}
     </Fragment>
   );
 };
