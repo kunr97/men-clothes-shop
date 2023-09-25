@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+}
+
+.main {
+  flex: 1;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
