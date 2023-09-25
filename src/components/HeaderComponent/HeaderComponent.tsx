@@ -1,4 +1,4 @@
-import { Box, CardMedia } from "@mui/material";
+import { Box } from "@mui/material";
 import { Fragment } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

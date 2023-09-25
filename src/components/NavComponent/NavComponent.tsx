@@ -3,40 +3,38 @@ import { Box } from "@mui/material";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import CAT_Men from "./CAT_men.json";
-import CAT_Women from "./CAT_women.json";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleCartPopup } from "../../redux/actions/DisplayCart.action";
 import styles from "./NavComponent.module.css";
 import { Col, Row } from "react-bootstrap";
 import dataProduct from "../../../public/data-product/data.json";
 import { useState, useRef, useEffect } from "react";
-interface MenuItem {
-  path: string;
-  name: string;
-}
+// interface MenuItem {
+//   path: string;
+//   name: string;
+// }
 
-interface SubmenuProps {
-  categoryData: MenuItem[][];
-}
+// interface SubmenuProps {
+//   categoryData: MenuItem[][];
+// }
 
-const Submenu: React.FC<SubmenuProps> = ({ categoryData }) => {
-  return (
-    <div className={styles.submenu}>
-      <div className={styles.submenu_content}>
-        {categoryData.map((subMenuItems, index) => (
-          <Box key={index} sx={{ display: "flex", flexDirection: "column" }}>
-            {subMenuItems.map((item, itemIndex) => (
-              <NavLink key={itemIndex} to={item.path}>
-                {item.name}
-              </NavLink>
-            ))}
-          </Box>
-        ))}
-      </div>
-    </div>
-  );
-};
+// const Submenu: React.FC<SubmenuProps> = ({ categoryData }) => {
+//   return (
+//     <div className={styles.submenu}>
+//       <div className={styles.submenu_content}>
+//         {categoryData.map((subMenuItems, index) => (
+//           <Box key={index} sx={{ display: "flex", flexDirection: "column" }}>
+//             {subMenuItems.map((item, itemIndex) => (
+//               <NavLink key={itemIndex} to={item.path}>
+//                 {item.name}
+//               </NavLink>
+//             ))}
+//           </Box>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
 
 const NavComponent = () => {
   const [inputSearch, setInputSearch] = useState("");
@@ -101,10 +99,7 @@ const NavComponent = () => {
             <div className="d-lg-none my-auto col-1">
               <NavLink to="/">
                 <div className={styles.img}>
-                  <img
-                    src="http://localhost:5173\public\images\logo-graceful-2.svg"
-                    alt=""
-                  />
+                  <img src="public\images\logo-graceful-2.svg" alt="" />
                 </div>
               </NavLink>
             </div>
@@ -112,10 +107,7 @@ const NavComponent = () => {
               <div className={styles.menu_left}>
                 <NavLink to="/">
                   <div className={styles.img}>
-                    <img
-                      src="http://localhost:5173\public\images\logo-graceful-2.svg"
-                      alt=""
-                    />
+                    <img src="public\images\logo-graceful-2.svg" alt="" />
                   </div>
                 </NavLink>
                 <div className={styles.menu}>

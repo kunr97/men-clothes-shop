@@ -5,7 +5,7 @@ import ServiceComponent from "../ServiceComponent/ServiceComponent";
 import { useState, useEffect } from "react";
 import AppServices from "../../services/AppServices";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addItemToCart } from "../../redux/actions/CartItem.action";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

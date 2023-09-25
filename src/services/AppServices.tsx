@@ -1,5 +1,5 @@
 import useApi from "./useApi";
-const base_URL = "http://localhost:5173/public/data-product/data.json";
+const base_URL = "/public/data-product/data.json";
 export default new (class AppServices {
   async getUser() {
     let data: any;
