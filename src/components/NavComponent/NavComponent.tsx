@@ -100,7 +100,7 @@ const NavComponent = () => {
               <NavLink to="/">
                 <div className={styles.img}>
                   <img
-                    src="https://github.com/kunr97/men-clothes-shop/blob/46e47575423f6c3ae5282de420ebe42f560272ad/public/images/logo-graceful-2.svg"
+                    src="../../../public/images/logo-graceful-2.svg"
                     alt=""
                   />
                 </div>
@@ -111,7 +111,7 @@ const NavComponent = () => {
                 <NavLink to="/">
                   <div className={styles.img}>
                     <img
-                      src="https://github.com/kunr97/men-clothes-shop/blob/46e47575423f6c3ae5282de420ebe42f560272ad/public/images/logo-graceful-2.svg"
+                      src="../../../public/images/logo-graceful-2.svg"
                       alt=""
                     />
                   </div>
