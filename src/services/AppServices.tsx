@@ -1,6 +1,6 @@
 import useApi from "./useApi";
 const base_URL =
-  "https://github.com/kunr97/men-clothes-shop/blob/46e47575423f6c3ae5282de420ebe42f560272ad/public/data-product/data.json";
+  "/data-product/data.json";
 export default new (class AppServices {
   async getUser() {
     let data: any;
