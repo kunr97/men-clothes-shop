@@ -99,7 +99,10 @@ const NavComponent = () => {
             <div className="d-lg-none my-auto col-1">
               <NavLink to="/">
                 <div className={styles.img}>
-                  <img src="public\images\logo-graceful-2.svg" alt="" />
+                  <img
+                    src="https://github.com/kunr97/men-clothes-shop/blob/46e47575423f6c3ae5282de420ebe42f560272ad/public/images/logo-graceful-2.svg"
+                    alt=""
+                  />
                 </div>
               </NavLink>
             </div>
@@ -107,7 +110,10 @@ const NavComponent = () => {
               <div className={styles.menu_left}>
                 <NavLink to="/">
                   <div className={styles.img}>
-                    <img src="public\images\logo-graceful-2.svg" alt="" />
+                    <img
+                      src="https://github.com/kunr97/men-clothes-shop/blob/46e47575423f6c3ae5282de420ebe42f560272ad/public/images/logo-graceful-2.svg"
+                      alt=""
+                    />
                   </div>
                 </NavLink>
                 <div className={styles.menu}>

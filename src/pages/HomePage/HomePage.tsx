@@ -80,28 +80,28 @@ const HomePage = () => {
           <Col>
             <img
               className={offerStyle.offer_img}
-              src="public\images\product149_1.webp"
+              src="https://github.com/kunr97/men-clothes-shop/blob/46e47575423f6c3ae5282de420ebe42f560272ad/public/images/product149_1.webp"
               alt=""
             />
           </Col>
           <Col>
             <img
               className={offerStyle.offer_img}
-              src="public\images\product149_2.webp"
+              src="https://github.com/kunr97/men-clothes-shop/blob/46e47575423f6c3ae5282de420ebe42f560272ad/public/images/product149_2.webp"
               alt=""
             />
           </Col>
           <Col>
             <img
               className={offerStyle.offer_img}
-              src="public\images\product149_3.webp"
+              src="https://github.com/kunr97/men-clothes-shop/blob/46e47575423f6c3ae5282de420ebe42f560272ad/public/images/product149_3.webp"
               alt=""
             />
           </Col>
           <Col>
             <img
               className={offerStyle.offer_img}
-              src="public\images\product149_4.webp"
+              src="https://github.com/kunr97/men-clothes-shop/blob/46e47575423f6c3ae5282de420ebe42f560272ad/public/images/product149_4.webp"
               alt=""
             />
           </Col>
